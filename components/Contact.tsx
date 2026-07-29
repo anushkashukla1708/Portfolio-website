@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
+import contact from "@/data/contact";
 
 export default function Contact() {
   return (
@@ -11,24 +12,24 @@ export default function Contact() {
         whileInView={{ opacity: 1 }}
         className="text-center text-4xl font-bold mb-12 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"
       >
-        Contact Me
+        {contact.title}
       </motion.h2>
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
         <div className="rounded-2xl p-8 bg-white/10 dark:bg-white/5 backdrop-blur-xl border border-white/20 shadow-xl">
           <div className="flex items-center gap-3 mb-5">
             <Mail className="text-purple-500" />
-            <span>anushka.shukla1708@gmail.com</span>
+            <span>{contact.email}</span>
           </div>
 
           <div className="flex items-center gap-3 mb-5">
             <Phone className="text-purple-500" />
-            <span>+91 8851060347</span>
+            <span>{contact.phone}</span>
           </div>
 
           <div className="flex items-center gap-3">
             <MapPin className="text-purple-500" />
-            <span>India</span>
+            <span>{contact.location}</span>
           </div>
         </div>
 

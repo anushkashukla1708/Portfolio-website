@@ -2,16 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
-
-const experiences = [
-  {
-    role: "Web Development Intern",
-    company: "Vatsalya Rudra Gaushala & Child Foundation",
-    duration: "June 2026 – July 2026",
-    description:
-      "Built the NGO Management System including volunteer database, attendance management and website improvements.",
-  },
-];
+import experiences from "@/data/experience";
 
 export default function Experience() {
   return (
@@ -33,10 +24,15 @@ export default function Experience() {
           >
             <div className="flex items-center gap-3 mb-4">
               <Briefcase className="text-purple-500" />
-              <h3 className="text-2xl font-bold">{exp.role}</h3>
+
+              <h3 className="text-2xl font-bold">
+                {exp.role}
+              </h3>
             </div>
 
-            <p className="font-semibold">{exp.company}</p>
+            <p className="font-semibold">
+              {exp.company}
+            </p>
 
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               {exp.duration}
