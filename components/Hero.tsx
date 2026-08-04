@@ -121,22 +121,10 @@ export default function Hero() {
 
 
 <a
-  href="/resume.pdf"
-  download
-  className="
-    px-6
-    py-3
-    rounded-xl
-    border
-    border-gray-400
-    dark:border-gray-600
-    dark:text-white
-    hover:scale-105
-    transition
-    inline-flex
-    items-center
-    justify-center
-  "
+  href="/Anushka_Shukla_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 rounded-xl border border-gray-400 dark:border-gray-600 dark:text-white hover:scale-105 transition"
 >
   Download Resume
 </a>
