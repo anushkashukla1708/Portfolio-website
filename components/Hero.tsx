@@ -120,22 +120,26 @@ export default function Hero() {
             </button>
 
 
-            <button
-            className="
-            px-6
-            py-3
-            rounded-xl
-            border
-            border-gray-400
-            dark:border-gray-600
-            dark:text-white
-            hover:scale-105
-            transition
-            "
-            >
-              Download Resume
-            </button>
-
+<a
+  href="/resume.pdf"
+  download
+  className="
+    px-6
+    py-3
+    rounded-xl
+    border
+    border-gray-400
+    dark:border-gray-600
+    dark:text-white
+    hover:scale-105
+    transition
+    inline-flex
+    items-center
+    justify-center
+  "
+>
+  Download Resume
+</a>
 
           </div>
 
