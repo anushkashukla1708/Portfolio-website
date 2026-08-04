@@ -121,7 +121,7 @@ export default function Hero() {
 
 
 <a
-  href="/Anushka_Shukla_Resume.pdf"
+  href="https://docs.google.com/document/d/1Ls-G7ebaH49RcqWuIwGqeqd4WGv4u3wh/edit?usp=drivesdk&ouid=104799579233963551057&rtpof=true&sd=true"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-3 rounded-xl border border-gray-400 dark:border-gray-600 dark:text-white hover:scale-105 transition"
